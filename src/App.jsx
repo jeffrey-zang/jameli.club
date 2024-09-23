@@ -32,6 +32,16 @@ import jame31 from "./assets/jame31.png";
 import jame32 from "./assets/jame32.png";
 import jame33 from "./assets/jame33.png";
 import jame34 from "./assets/jame34.png";
+import jame35 from "./assets/jame35.png"
+import jame36 from "./assets/jame36.png"
+import jame37 from "./assets/jame37.png"
+import jame38 from "./assets/jame38.png"
+import jame39 from "./assets/jame39.png"
+import jame40 from "./assets/jame40.png"
+import jame41 from "./assets/jame41.png"
+import jame42 from "./assets/jame42.png"
+import jame43 from "./assets/jame43.png"
+import jame44 from "./assets/jame44.png"
 
 const photos = [
   jame1,
@@ -67,7 +77,17 @@ const photos = [
   jame31,
   jame32,
   jame33,
-  jame34
+  jame34,
+  jame35,
+  jame36,
+  jame37,
+  jame38,
+  jame39,
+  jame40,
+  jame41,
+  jame42,
+  jame43,
+  jame44,
 ];
 
 function shuffle(array) {
