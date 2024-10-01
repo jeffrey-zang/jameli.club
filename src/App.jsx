@@ -126,7 +126,7 @@ const App = () => {
       </div>
       <div>
         <video controls width="100%" height="auto">
-          <source src="/jameliBall.mp4" type="video/mp4"/>
+          <source src="/assets/jameliBall.mp4" type="video/mp4"/>
         </video>
       </div>
     </>
