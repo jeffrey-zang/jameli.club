@@ -43,6 +43,7 @@ import jame42 from "./assets/jame42.png"
 import jame43 from "./assets/jame43.png"
 import jame44 from "./assets/jame44.png"
 
+
 const photos = [
   jame1,
   jame2,
@@ -110,19 +111,27 @@ shuffle(photos);
 
 const App = () => {
   return (
-    <div>
-      <h1> Jame Li Club </h1>
-      <p> Welcome to Jame Li Club </p>
-      <p> We meet daily at 11pm </p>
-      <p> Allan joe </p>
-      <h2>Jame collage</h2>
-      {
-        photos.map((photo, index) => (
-          <img key={index} src={photo} alt={`jame${index + 1}`} />
-        ))
-      }
-    </div>
+    <>
+      <div>
+        <h1> Jame Li Club </h1>
+        <p> Welcome to Jame Li Club </p>
+        <p> We meet daily at 11pm </p>
+        <p> Allan joe </p>
+        <h2>Jame collage</h2>
+        {
+          photos.map((photo, index) => (
+            <img key={index} src={photo} alt={`jame${index + 1}`} />
+          ))
+        }
+      </div>
+      <div>
+        <video controls width="100%" height="auto">
+          <source src="/assets/jameliBall.mp4" type="video/mp4"/>
+        </video>
+      </div>
+    </>
   );
 };
 
 export default App;
+
