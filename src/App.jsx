@@ -1,6 +1,6 @@
-const photos = Array.from({ length: 46 }, (_, i) => {
-  return new URL(`./assets/jame${i + 1}.png`, import.meta.url).href;
-});
+// Import all images from assets folder
+const imageModules = import.meta.glob("./assets/*.png", { eager: true });
+const photos = Object.values(imageModules).map((module) => module.default);
 
 function shuffle(array) {
   let currentIndex = array.length;
