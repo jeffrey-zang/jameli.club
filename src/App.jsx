@@ -1,4 +1,4 @@
-const photos = Array.from({ length: 45 }, (_, i) => {
+const photos = Array.from({ length: 46 }, (_, i) => {
   return new URL(`./assets/jame${i + 1}.png`, import.meta.url).href;
 });
 
